@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: gilroy;    
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.page{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://t3.ftcdn.net/jpg/03/76/48/32/240_F_376483281_A9CVLvORblntUsyam10IcWBUgyNLBkNC.jpg);
+}
+nav{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw;
+    background-color: #fff;
+}
+nav img{
+    /* height: 50px; */
+    /* object-fit: cover; */
+    object-fit: contain;
+    width: 50px;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-between;
+}
+.nav-right h2{
+    font-size: 20px;
+    font-weight: 200;
+}
+.nav-right h2:hover{
+    color: blue;
+    cursor: pointer;
+}
+.nav-right button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    background-color:rgb(237, 148, 84);
+}
+.nav-right button:hover{
+    color: white;
+    background-color:#222;
+    cursor: pointer;
+}
+.container{
+    height: calc(100% - 70px);
+    width: 100%;
+    display: flex;
+    /* background-color:red; */
+}
+.text{
+    padding: 8vw 10vw;
+    height: 100%;
+    width: 50%;
+    color: #fff;
+    /* background-color: lightblue; */
+}
+.text p{line-height: 3vw;
+    font-size: 23px;
+    font-weight: 400;
+}
+.text h1{
+    font-size: 8vw;
+    line-height: 8vw;
+}
+.text h2{
+    font-size: 6vw;
+    line-height: 6vw;
+}
+.text button{margin-top: 30px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    background-color:rgb(237, 148, 84);
+
+}
+.text button:hover{
+    color: white;
+    background-color:#222;
+    cursor: pointer;
+}
+.img{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(218, 195, 47); */
+}
+.img img{
+    height: 90%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
